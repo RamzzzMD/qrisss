@@ -1,0 +1,20 @@
+{
+  "name": "qris-api-ranzz",
+  "version": "1.0.0",
+  "description": "Web API untuk konversi string QRIS Statis menjadi Dinamis dan generate QR Code",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "RamzzzMD",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
